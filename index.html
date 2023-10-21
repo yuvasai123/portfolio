@@ -67,46 +67,42 @@
 		</section>
 		<section id="skills">
     <h1 class="text-center">My skills</h1>
-    <div class="row g-5 d-flex justify-content-center align-items-center">
-        <div class="col-sm-4">
-            <div class="card align-items-center">
-                <i class="fa-solid fa-code" style="color: #f0f2f5"></i>
-                <div class="card-header">
-                    Front end
-                </div>
-                <div class="card-body">
+    <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
 
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card align-items-center">
-                <i class="fa-solid fa-code" style="color: #f0f2f5"></i>
-                <div class="card-header">
-                    Backend
-                </div>
-                <div class="card-body">
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
 
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card align-items-center">
-                <i class="fa-solid fa-code" style="color: #f0f2f5"></i>
-                <div class="card-header">
-                    Others
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li>html</li>
-                        <li>asda</li>
-                        <li>asdada</li>
-                        <li>asdad</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
 </section>
 
 </div>
