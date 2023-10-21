@@ -10,6 +10,9 @@
 	<title>Bootstrap Example</title>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<!-- icon cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 	<!-- navbar -->
@@ -19,47 +22,93 @@
 			<label for="check" class="checkbtn">
 				<i class="fas fa-bars"></i>
 			</label>
-			<label class="logo"><span>Yu</span><span>Va</span></label>
+			<label class="logo"><span style="text-shadow: 3px 1px 8px #3B1910;">Yu</span><span style="color: #31E0B6;text-shadow: 3px 1px 8px #3B1910;">Va</span></label>
+			
 			<ul>
-				<li><a href="#home">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#skills">Skills</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#skills">SKILLS</a></li>
+				<li><a href="#projects">PROJECTS</a></li>
+				<li><a href="#contact">CONTACT</a></li>
 			</ul>
-		</nav>
-	</header>
-	<!-- navbar -->
-	<div class="container-fluid">
-		<section id="home">
-			<div class="row p-0 m-0 container-fluid">
-				<div class="col-sm-6 d-flex align-items-center justify-content-center">
-					<div class="text-center">
-						<b><p class="yuva">I am Yuvasai...</p></b>
-						<p class="front">frontend developer</p>
-						<p class="para">I consider myself a detail-oriented front-end developer <br>with a strong foundation in HTML, CSS, and JavaScript.<br>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<img src="360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD-removebg-preview.png" class="img-fluid ">
-					</div>
-				</div>
-			</section>
-			<section id="about">
-				<h1 class="text-center p-5">ABout Me</h1>
-				<div class="container-fluid d-flex">
-					<div class="row mb-3 d-flex">
-						<div class="col-sm-4 h-0 w-30 my-auto">
-							<img src="generatedHeaderImage-1652883200735.jpg" class="img-fluid p-0 m-0 " ">
-						</div>
-						<div class=" col-sm-8 ">
-							<p>I'm a dedicated front-end developer with a passion for creating exceptional user experiences. I've honed my skills in HTML5, CSS3, and JavaScript to craft intuitive and visually engaging web interfaces.<br>
-								I am well-versed in popular frontend frameworks and libraries such as React, Vue.js, and Angular<br>
-							With a keen interest in staying up-to-date with the latest frontend technologies and best practices, i am not only proficient in frontend development but also possess a strong understanding of web performance optimization, accessibility, and SEO best practices.</p>
-						</div>
-					</div>
-				</div>
-			</section>
 		</div>
-	</body>
-	</html>
+	</nav>
+</header>
+<!-- navbar -->
+<div class="container-fluid">
+	<section id="home">
+		<div class="row p-0 m-0 container-fluid">
+			<div class="col-sm-6 d-flex align-items-center justify-content-center">
+				<div class="text-center">
+					<b><p class="yuva">I am Yuvasai...</p></b>
+					<p class="front">frontend developer</p>
+					<p class="para">I consider myself a detail-oriented front-end developer <br>with a strong foundation in HTML, CSS, and JavaScript.<br>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<img src="360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD-removebg-preview.png" class="img-fluid ">
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<h1 class="text-center p-5">ABout Me</h1>
+			<div class="container-fluid d-flex">
+				<div class="row mb-3 d-flex">
+					<div class="col-sm-4 h-0 w-30 my-auto">
+						<img src="generatedHeaderImage-1652883200735.jpg" class="img-fluid p-0 m-0 " ">
+					</div>
+					<div class=" col-sm-8 ">
+						<p>I'm a dedicated front-end developer with a passion for creating exceptional user experiences. I've honed my skills in HTML5, CSS3, and JavaScript to craft intuitive and visually engaging web interfaces.<br>
+							I am well-versed in popular frontend frameworks and libraries such as React, Vue.js, and Angular<br>
+						With a keen interest in staying up-to-date with the latest frontend technologies and best practices, i am not only proficient in frontend development but also possess a strong understanding of web performance optimization, accessibility, and SEO best practices.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+    <h1 class="text-center">My skills</h1>
+    <div class="row g-5 d-flex justify-content-center align-items-center">
+        <div class="col-sm-4">
+            <div class="card align-items-center">
+                <i class="fa-solid fa-code" style="color: #f0f2f5"></i>
+                <div class="card-header">
+                    Front end
+                </div>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card align-items-center">
+                <i class="fa-solid fa-code" style="color: #f0f2f5"></i>
+                <div class="card-header">
+                    Backend
+                </div>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card align-items-center">
+                <i class="fa-solid fa-code" style="color: #f0f2f5"></i>
+                <div class="card-header">
+                    Others
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>html</li>
+                        <li>asda</li>
+                        <li>asdada</li>
+                        <li>asdad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+</body>
+</html>
