@@ -66,45 +66,91 @@
 			</div>
 		</section>
 		<section id="skills">
-    <h1 class="text-center">My skills</h1>
-    <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
+			<h1 class="text-center">My skills</h1>
 
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
+			<div class="tab col-sm-8 d-flex justify-content-center align-items-center bg-primary mx-auto">
+				<button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'London')">London</button>
+				<button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'Paris')">Paris</button>
+				<button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+			</div>
+			<div id="London" class="tabcontent col-sm-8 mx-auto">
+				<div class="skill-box">
+					<span class="title">HTML</span>
+					<div class="skill-bar">
+						<span class="skill-per html">
+							<span class="tooltip">90%</span>
+						</span>
+					</div>
+				</div>
+				<div class="skill-box">
+					<span class="title">CSS</span>
+					<div class="skill-bar">
+						<span class="skill-per css">
+							<span class="tooltip">70%</span>
+						</span>
+					</div>
+				</div>
+				<div class="skill-box">
+					<span class="title">JavaScript</span>
+					<div class="skill-bar">
+						<span class="skill-per javascript">
+							<span class="tooltip">50%</span>
+						</span>
+					</div>
+				</div>
+				<div class="skill-box">
+					<span class="title">NodeJS</span>
+					<div class="skill-bar">
+						<span class="skill-per nodejs">
+							<span class="tooltip">30%</span>
+						</span>
+					</div>
+				</div>
+			</div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
+			<div id="Paris" class="tabcontent">
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
 
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-</section>
 
-</div>
-</body>
-</html>
+			</div>
+
+			<div id="Tokyo" class="tabcontent">
+				<h3>Tokyo</h3>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+
+			<script>
+				function openCity(evt, cityName) {
+					var i, tabcontent, tablinks;
+					tabcontent = document.getElementsByClassName("tabcontent");
+					for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+					}
+					tablinks = document.getElementsByClassName("tablinks");
+					for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+					}
+					document.getElementById(cityName).style.display = "block";
+					evt.currentTarget.className += " active";
+				}
+			</script>
+		</section>
+		<section id="projects"> 
+			<h1 class="text-center">My projects</h1>
+			<h3 class="text-center m-5">explore my projects below</h3>
+			<div class="row g-5 d-flex justify-content-center align-items-center m-5">
+				<div class="col-sm-4">
+					<div class="card h-100">
+						<img src="DreamShaper_v7_frontend_developer_2.jpg" class="card-img">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<img src="DreamShaper_v7_frontend_developer_2.jpg" class="card-img">
+				</div>
+				<div class="col-sm-4">
+					<img src="DreamShaper_v7_frontend_developer_2.jpg" class="card-img">
+				</div>
+			</section>
+		</div>
+	</body>
+	</html>
