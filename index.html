@@ -1,156 +1,197 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-	<title>Bootstrap Example</title>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-	<!-- icon cdn -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <!-- icon cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
-	<!-- navbar -->
-	<header>
-		<nav>
-			<input type="checkbox" id="check">
-			<label for="check" class="checkbtn">
-				<i class="fas fa-bars"></i>
-			</label>
-			<label class="logo"><span style="text-shadow: 3px 1px 8px #3B1910;">Yu</span><span style="color: #31E0B6;text-shadow: 3px 1px 8px #3B1910;">Va</span></label>
-			
-			<ul>
-				<li><a href="#home">HOME</a></li>
-				<li><a href="#about">ABOUT</a></li>
-				<li><a href="#skills">SKILLS</a></li>
-				<li><a href="#projects">PROJECTS</a></li>
-				<li><a href="#contact">CONTACT</a></li>
-			</ul>
-		</div>
-	</nav>
+  <!-- navbar -->
+  <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><span style="text-shadow: 3px 1px 8px #3B1910;">Yu</span><span style="color: #31E0B6;text-shadow: 3px 1px 8px #3B1910;">Va</span></label>
+      
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
 </header>
 <!-- navbar -->
 <div class="container-fluid">
-	<section id="home">
-		<div class="row p-0 m-0 container-fluid">
-			<div class="col-sm-6 d-flex align-items-center justify-content-center">
-				<div class="text-center">
-					<b><p class="yuva">I am Yuvasai...</p></b>
-					<p class="front">frontend developer</p>
-					<p class="para">I consider myself a detail-oriented front-end developer <br>with a strong foundation in HTML, CSS, and JavaScript.<br>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<img src="360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD-removebg-preview.png" class="img-fluid ">
-				</div>
-			</div>
-		</section>
-		<section id="about">
-			<h1 class="text-center p-5">ABout Me</h1>
-			<div class="container-fluid d-flex">
-				<div class="row mb-3 d-flex">
-					<div class="col-sm-4 h-0 w-30 my-auto">
-						<img src="generatedHeaderImage-1652883200735.jpg" class="img-fluid p-0 m-0 " ">
-					</div>
-					<div class=" col-sm-8 ">
-						<p>I'm a dedicated front-end developer with a passion for creating exceptional user experiences. I've honed my skills in HTML5, CSS3, and JavaScript to craft intuitive and visually engaging web interfaces.<br>
-							I am well-versed in popular frontend frameworks and libraries such as React, Vue.js, and Angular<br>
-						With a keen interest in staying up-to-date with the latest frontend technologies and best practices, i am not only proficient in frontend development but also possess a strong understanding of web performance optimization, accessibility, and SEO best practices.</p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section id="skills">
-			<h1 class="text-center">My skills</h1>
 
-			<div class="tab col-sm-8 d-flex justify-content-center align-items-center bg-primary mx-auto">
-				<button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'London')">London</button>
-				<button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'Paris')">Paris</button>
-				<button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-			</div>
-			<div id="London" class="tabcontent col-sm-8 mx-auto">
-				<div class="skill-box">
-					<span class="title">HTML</span>
-					<div class="skill-bar">
-						<span class="skill-per html">
-							<span class="tooltip">90%</span>
-						</span>
-					</div>
-				</div>
-				<div class="skill-box">
-					<span class="title">CSS</span>
-					<div class="skill-bar">
-						<span class="skill-per css">
-							<span class="tooltip">70%</span>
-						</span>
-					</div>
-				</div>
-				<div class="skill-box">
-					<span class="title">JavaScript</span>
-					<div class="skill-bar">
-						<span class="skill-per javascript">
-							<span class="tooltip">50%</span>
-						</span>
-					</div>
-				</div>
-				<div class="skill-box">
-					<span class="title">NodeJS</span>
-					<div class="skill-bar">
-						<span class="skill-per nodejs">
-							<span class="tooltip">30%</span>
-						</span>
-					</div>
-				</div>
-			</div>
+  <!-- home section -->
+  <section id="home">
+    <div class="row p-0 m-0 container-fluid">
+      <div class="col-sm-6 d-flex align-items-center justify-content-center">
+        <div class="text-center">
+          <b><p class="yuva">I am Yuvasai...</p></b>
+          <p class="front">frontend developer</p>
+          <p class="para">I consider myself a detail-oriented front-end developer <br>with a strong foundation in HTML, CSS, and JavaScript.<br>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD-removebg-preview.png" class="img-fluid ">
+        </div>
+      </div>
+    </section>
+    <!-- home section ends -->
 
-			<div id="Paris" class="tabcontent">
+    <!-- about section -->
+    <section id="about">
+      <h1 class="text-center p-5">ABout Me</h1>
+      <div class="container-fluid d-flex">
+        <div class="row mb-3 d-flex">
+          <div class="col-sm-4 h-0 w-30 my-auto">
+            <img src="generatedHeaderImage-1652883200735.jpg" class="img-fluid p-0 m-0 " ">
+          </div>
+          <div class=" col-sm-8 ">
+            <p>I'm a dedicated front-end developer with a passion for creating exceptional user experiences. I've honed my skills in HTML5, CSS3, and JavaScript to craft intuitive and visually engaging web interfaces.<br>
+              I am well-versed in popular frontend frameworks and libraries such as React, Vue.js, and Angular<br>
+            With a keen interest in staying up-to-date with the latest frontend technologies and best practices, i am not only proficient in frontend development but also possess a strong understanding of web performance optimization, accessibility, and SEO best practices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
 
 
+    <!-- skills section -->
+    <section id="skills">
+      <h1 class="text-center">My skills</h1>
 
-			</div>
+      <div class="tab col-sm-8 d-flex justify-content-center align-items-center bg-primary mx-auto">
+        <button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'London')">London</button>
+        <button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="btn btn-primary tablinks col-sm-4 col-md-2" style="color:black;" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+      </div>
+      <div id="London" class="tabcontent col-sm-8 mx-auto">
+        <div class="skill-box">
+          <span class="title">HTML</span>
+          <div class="skill-bar">
+            <span class="skill-per html">
+              <span class="tooltip">90%</span>
+            </span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <span class="title">CSS</span>
+          <div class="skill-bar">
+            <span class="skill-per css">
+              <span class="tooltip">70%</span>
+            </span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <span class="title">JavaScript</span>
+          <div class="skill-bar">
+            <span class="skill-per javascript">
+              <span class="tooltip">50%</span>
+            </span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <span class="title">NodeJS</span>
+          <div class="skill-bar">
+            <span class="skill-per nodejs">
+              <span class="tooltip">30%</span>
+            </span>
+          </div>
+        </div>
+      </div>
 
-			<div id="Tokyo" class="tabcontent">
-				<h3>Tokyo</h3>
-				<p>Tokyo is the capital of Japan.</p>
-			</div>
+      <div id="Paris" class="tabcontent">
 
-			<script>
-				function openCity(evt, cityName) {
-					var i, tabcontent, tablinks;
-					tabcontent = document.getElementsByClassName("tabcontent");
-					for (i = 0; i < tabcontent.length; i++) {
-						tabcontent[i].style.display = "none";
-					}
-					tablinks = document.getElementsByClassName("tablinks");
-					for (i = 0; i < tablinks.length; i++) {
-						tablinks[i].className = tablinks[i].className.replace(" active", "");
-					}
-					document.getElementById(cityName).style.display = "block";
-					evt.currentTarget.className += " active";
-				}
-			</script>
-		</section>
-		<section id="projects"> 
-			<h1 class="text-center">My projects</h1>
-			<h3 class="text-center m-5">explore my projects below</h3>
-			<div class="row g-5 d-flex justify-content-center align-items-center m-5">
-				<div class="col-sm-4">
-					<div class="card h-100">
-						<img src="DreamShaper_v7_frontend_developer_2.jpg" class="card-img">
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<img src="DreamShaper_v7_frontend_developer_2.jpg" class="card-img">
-				</div>
-				<div class="col-sm-4">
-					<img src="DreamShaper_v7_frontend_developer_2.jpg" class="card-img">
-				</div>
-			</section>
-		</div>
-	</body>
-	</html>
+
+
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+      <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+      </script>
+    </section>
+
+    <!-- skills section ends -->
+
+
+    <!-- project section -->
+    <section id="projects"> 
+      <h1 class="text-center">My projects</h1>
+      <h3 class="text-center m-5">explore my projects below</h3>
+      <div class="content-section">
+        <div class="card">
+          <img src="DreamShaper_v7_frontend_developer_2.jpg"> 
+          <h2>attendence calculator</h2>  
+          <div class="card-body">
+            <h1 class="card-title">NYC</h1>
+            <p class="card-sub-title">new your city</p>
+            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non laboriosam tenetur! Molestiae sapiente ut enim quibusdam asperiores nihil itaque, ex harum soluta, reiciendis illum?</p>
+
+            <button class="card-btn">book tour</button>
+          </div>      
+        </div>
+        <div class="card">
+          <img src="DreamShaper_v7_frontend_developer_2.jpg"> 
+          <h2>attendence calculator</h2>  
+          <div class="card-body">
+            <h1 class="card-title">NYC</h1>
+            <p class="card-sub-title">new your city</p>
+            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non laboriosam tenetur! Molestiae sapiente ut enim quibusdam asperiores nihil itaque, ex harum soluta, reiciendis illum?</p>
+
+            <button class="card-btn">book tour</button>
+          </div>      
+        </div>
+        <div class="card">
+          <img src="DreamShaper_v7_frontend_developer_2.jpg"> 
+          <h2>attendence calculator</h2>  
+          <div class="card-body">
+            <h1 class="card-title">NYC</h1>
+            <p class="card-sub-title">new your city</p>
+            <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non laboriosam tenetur! Molestiae sapiente ut enim quibusdam asperiores nihil itaque, ex harum soluta, reiciendis illum?</p>
+
+            <button class="card-btn">book tour</button>
+          </div>      
+        </div>
+      </div>
+    </section>
+<!-- project section ends -->
+<section id="contact">
+  
+  </section>
+  </div>
+</body>
+</html>
