@@ -6,12 +6,13 @@
   box-sizing: border-box;
 }
 body{
-  font-family: montserrat;
-}
+  background-image: linear-gradient(to right, #25131e, #281a26, #2a202e, #2c2735, #2f2e3b, #393e4f, #404f64, #456179, #4885a1, #46abc3, #48d3df, #5ffbf1);
+  }
 nav{
-  background: #0082e6;
+  background: transparent;
   height: 80px;
   width: 100%;
+  position: sticky;
 }
 label.logo{
   color: white;
@@ -83,6 +84,7 @@ a.active,a:hover{
   nav ul li a{
     font-size: 20px;
   }
+  
   a:hover,a.active{
     background: none;
     color: #0082e6;
@@ -93,7 +95,7 @@ a.active,a:hover{
 }
 /*home section*/
 #home{
-  background-color: yellow;
+  
 }
 .yuva{
   margin-top: 20%;
@@ -152,7 +154,7 @@ a.active,a:hover{
 
 /*about section*/
 #about{
-  background-color: lightgreen;
+
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -178,7 +180,7 @@ a.active,a:hover{
 
 
 #skills{
-  background-color: whitesmoke;
+  
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -226,7 +228,7 @@ body{
   font-family: montserrat;
 }
 nav{
-  background: #0082e6;
+  background: transparent;
   height: 80px;
   width: 100%;
 }
@@ -310,7 +312,7 @@ a.active,a:hover{
 }
 /*home section*/
 #home{
-  background-color: yellow;
+ 
 }
 .yuva{
   margin-top: 20%;
@@ -369,7 +371,7 @@ a.active,a:hover{
 
 /*about section*/
 #about{
-  background-color: lightgreen;
+
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -395,7 +397,7 @@ a.active,a:hover{
 
 
 #skills{
-  background-color: whitesmoke;
+  
   width: 100%;
   min-height: 100vh;
   height: auto;
