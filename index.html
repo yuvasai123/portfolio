@@ -32,8 +32,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Roboto+Condensed&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Roboto+Condensed&family=Sometype+Mono&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Roboto+Condensed&family=Sometype+Mono&display=swap" rel="stylesheet">
 </head>
 <script type="text/javascript">
   document.addEventListener('DOMContentLoaded', function() {
@@ -72,7 +72,7 @@
   <!-- home section -->
   <section id="home">
     <div class="row p-0 m-0 container-fluid">
-      <div class="col-sm-6 d-flex align-items-center justify-content-center">
+      <div class="col-sm-6  d-flex align-items-center justify-content-center">
         <div class="text-center">
 
           <b><p class="yuva">I am Yuvasai...</p></b>
@@ -80,7 +80,7 @@
 
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-sm-6">
         <img src="360_F_590453560_ugMuPncnGYB6XnJqmC8xiPQx4eg3jmMD-removebg-preview.png" class="img-fluid ">
       </div>
     </div>
@@ -89,47 +89,20 @@
 
   <!-- about section -->
   <section id="about">
-    <h1 class="text-center p-5 text-light">ABout Me</h1>
-      <div class="card container-fluid d-flex justify-content-center align-items-center">
-        <div class="row g-2">
+    <h1 class="text-center p-5 text-light ">ABout Me</h1>
+    <div class="card container-fluid d-flex justify-content-center align-items-center  ">
+      <div class="row g-2">
         <div class="col-sm-4 p-4">
-        <img  class="float-left" src="DreamShaper_v7_frontend_developer_2.jpg" >
+          <img  class="float-left " src="DreamShaper_v7_frontend_developer_2.jpg" >
+        </div>
+        <div class="col-sm-8 p-1">
+          <p style="font-family: 'Nosifer', sans-serif;
+          font-family: 'Roboto Condensed', sans-serif;
+          font-family: 'Sometype Mono', monospace;">I'm a dedicated front-end developer with a passion for creating exceptional user experiences. I've honed my skills in HTML5, CSS3, and JavaScript to craft intuitive and visually engaging web interfaces.<br>
+          I am well-versed in popular frontend frameworks and libraries such as React, Vue.js, and Angular<br>
+        </p>
       </div>
-      <div class="col-sm-8 p-1">
-<p style="font-family: 'Nosifer', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Sometype Mono', monospace;">I'm a dedicated front-end developer with a passion for creating exceptional user experiences. I've honed my skills in HTML5, CSS3, and JavaScript to craft intuitive and visually engaging web interfaces.<br>
-              I am well-versed in popular frontend frameworks and libraries such as React, Vue.js, and Angular<br>
-            With a keen interest in staying up-to-date with the latest frontend technologies and best practices, i am not only proficient in frontend development but also possess a strong understanding of web performance optimization, accessibility, and SEO best practices.</p>
-      </div>
-<div class="row justify-content-center align-items-center">
-  <div class="col-sm-8  p-5 mx-auto align-items-center justify-content-center">
-   <h3 class="text-center">Explore more about me</h3>
-   <center>
-   <ul class="wrapper ">
-  <li class="icon facebook">
-    <span class="tooltip">Facebook</span>
-    <span><i class="fab fa-facebook-f"></i></span>
-  </li>
-  <li class="icon twitter">
-    <span class="tooltip">Twitter</span>
-    <span><i class="fab fa-twitter"></i></span>
-  </li>
-  <li class="icon instagram">
-    <span class="tooltip">Instagram</span>
-    <span><i class="fab fa-instagram"></i></span>
-  </li>
-  <li class="icon github">
-    <span class="tooltip">Github</span>
-    <span><i class="fab fa-github"></i></span>
-  </li>
-  <li class="icon youtube">
-    <span class="tooltip">Youtube</span>
-    <span><i class="fab fa-youtube"></i></span>
-  </li>
-</ul>
-</center>
-</div>
+
     </div>
   </section>
   <!-- about section ends -->
@@ -140,10 +113,17 @@ font-family: 'Sometype Mono', monospace;">I'm a dedicated front-end developer wi
     <h1 class="text-center text-light">My skills</h1>
 
     <div class="tab col-sm-12 h-auto p-3 m-2 py-3 d-flex justify-content-center align-items-center  mx-auto">
+
       <button class="btn btn-primary tablinks text-light" style="color:black;" onclick="openCity(event, 'London')">FRONTEND</button>
       <button class="btn btn-primary tablinks text-light" style="color:black;" onclick="openCity(event, 'Paris')">BACKEND</button>
       <button class="btn btn-primary tablinks text-light" style="color:black;" onclick="openCity(event, 'Tokyo')">OTHERS</button>
     </div>
+
+    <div id="American" class="tabcontents justify-content-center col-sm-12 mx-auto">
+      <center><span><p>Explore my Skills </p></><center><h1>By clicking above button</h1></center></span></center>
+    </div>
+    
+
     <div id="London" class="tabcontent col-sm-8 mx-auto">
       <div class="skill-box">
         <span class="title">HTML</span>
@@ -189,7 +169,7 @@ font-family: 'Sometype Mono', monospace;">I'm a dedicated front-end developer wi
     </div>
 
     <div id="Paris" class="tabcontent col-sm-8 mx-auto">
-            
+
       <div class="skill-box">
         <span class="title">FLASK</span>
         <div class="skill-bar">
@@ -234,7 +214,7 @@ font-family: 'Sometype Mono', monospace;">I'm a dedicated front-end developer wi
     </div>
 
     <div id="Tokyo" class="tabcontent col-sm-8 mx-auto">
-      
+
       <div class="skill-box">
         <span class="title">PROBLEM SOLVING</span>
         <div class="skill-bar">
@@ -273,6 +253,9 @@ font-family: 'Sometype Mono', monospace;">I'm a dedicated front-end developer wi
 
     <script>
       function openCity(evt, cityName) {
+        var america=document.getElementById("American");
+        america.style.display="none";
+        
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
@@ -294,39 +277,37 @@ font-family: 'Sometype Mono', monospace;">I'm a dedicated front-end developer wi
   <!-- project section -->
   <section id="projects"> 
     <h1 class="text-center">My projects</h1>
-    <h3 class="text-center m-5">explore my projects below</h3>
+    <h3 class="text-center m-5"></h3>
     <div class="content-section">
       <div class="card">
-        <img src="DreamShaper_v7_frontend_developer_2.jpg"> 
-        <h2>attendence calculator</h2>  
+        <img src="DreamShaper_v7_colleges_0.jpg"> 
+        <h2>COLLEGE PREDICTOR</h2>  
         <div class="card-body">
-          <h1 class="card-title">NYC</h1>
-          <p class="card-sub-title">new your city</p>
-          <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non laboriosam tenetur! Molestiae sapiente ut enim quibusdam asperiores nihil itaque, ex harum soluta, reiciendis illum?</p>
+         
+        
+          <p class="card-info">It is an application to predict the colleges based on the rank of your exam and select the colleges</p>
 
-          <button class="card-btn">book tour</button>
+          
         </div>      
       </div>
       <div class="card">
-        <img src="DreamShaper_v7_frontend_developer_2.jpg"> 
-        <h2>attendence calculator</h2>  
+        <img src="DreamShaper_v7_food_recipes_2.jpg"> 
+        <h2>FOOD RECIPIE FINDER</h2>  
         <div class="card-body">
-          <h1 class="card-title">NYC</h1>
-          <p class="card-sub-title">new your city</p>
-          <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non laboriosam tenetur! Molestiae sapiente ut enim quibusdam asperiores nihil itaque, ex harum soluta, reiciendis illum?</p>
+          
+          <p class="card-info">An application to find the process of an recipe by searching with the item name </p>
 
-          <button class="card-btn">book tour</button>
+        
         </div>      
       </div>
       <div class="card">
-        <img src="DreamShaper_v7_frontend_developer_2.jpg"> 
-        <h2>attendence calculator</h2>  
+        <img src="DreamShaper_v7_fingerprint_authentication_5.jpg"> 
+        <h2>ATTENDENCE CALCULATOR</h2>  
         <div class="card-body">
-          <h1 class="card-title">NYC</h1>
-          <p class="card-sub-title">new your city</p>
-          <p class="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non laboriosam tenetur! Molestiae sapiente ut enim quibusdam asperiores nihil itaque, ex harum soluta, reiciendis illum?</p>
+          
+          <p class="card-info">This is used to calculate your attendence by posting it on your own regularly </p>
 
-          <button class="card-btn">book tour</button>
+          
         </div>      
       </div>
     </div>
